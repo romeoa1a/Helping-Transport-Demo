@@ -1,0 +1,92 @@
+@media (min-width: 768px) {
+    .news-input{
+        width: 50%;
+    }
+    
+}
+
+section.helping-transport-showcase{
+background-image: url(img/Helping\ Handings\ Showcase\ Img.png);
+
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+}
+
+.hr-line {
+    width: 10%;
+    position: relative;
+    margin: 15px;
+    border-bottom: 3px solid #000;
+  }
+
+  .hr-line-footer {
+    width: 10%;
+    position: relative;
+    margin: 15px;
+    border-bottom: 3px solid rgb(255, 255, 255);
+  }
+
+.navbar-logo{
+    height: 50px;
+    width: 50px;
+}
+.scrollable{
+    opacity: 0;
+}
+
+@keyframes slide-left {
+    0% {transform: translateX(-10px);opacity: 0;}
+    70% {transform: translateX(5px);}
+    100% {transform: translateX(0px); opacity: 1;}
+}
+
+@keyframes fade-in-1 {
+0%{opacity: 0;}
+100%{opacity: 1;}
+    
+}
+@keyframes fade-up {
+    0% {transform: translatey(-10px);opacity: 0;}
+    70% {transform: translatey(5px);}
+    100% {transform: translatey(0px); opacity: 1;}
+        
+}
+@keyframes fade-in-3 {
+        0%{opacity: 0;}
+        100%{opacity: 1;}
+            
+}
+
+.reveal-fade-in-1{
+    
+    animation-name: fade-in-1;
+    animation-duration: 2.5s;
+    opacity: 1;
+}
+
+.reveal-fade-up{
+   
+    animation-name: fade-up;
+    animation-duration: 2.5s;
+    
+    opacity: 1;
+}
+
+.reveal-fade-in-3{
+   
+    animation-name: fade-in-3;
+    animation-duration: 2.5s;
+    animation-delay: 7s;
+    opacity: 1;
+}
+
+
+.reveal-slide-left{
+    
+    animation-name: slide-left;
+    animation-duration: 2.5s;
+    opacity: 1;
+}
